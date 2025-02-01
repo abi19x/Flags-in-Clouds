@@ -18,3 +18,22 @@
     margin: auto;
     color: brown;
 }
+
+img {
+    height: 150px;
+    width: 250px;
+    margin-top: 25px;
+}
+
+p {
+    font-size: 70px;
+    font-weight: bold;
+    color: red;
+    background-color: lightcyan;
+    border-radius: 25%;
+    border: 1px dotted black;
+}
+
+.next {
+    color: rgb(135, 222, 157);
+}
