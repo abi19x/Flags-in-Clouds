@@ -1,0 +1,20 @@
+#btn {
+    height: 60px;
+    width: 250px;
+    margin: 60px 35%;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 7px;
+    background-color: rgb(43, 171, 226);
+}
+
+#outcome {
+    border: dashed 3px black;
+    height: 270px;
+    width: 700px;
+    background-color: rgb(239, 244, 244);
+    text-align: center;
+    font-size: 26px;
+    margin: auto;
+    color: brown;
+}
