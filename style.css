@@ -121,3 +121,15 @@ p {
     font-weight: bold;
     color: lightcoral;
 }
+
+#timer{
+    position: absolute;
+    height : 100px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+}
+
+#counter{
+    font-size: 3em;
+}
