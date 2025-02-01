@@ -63,3 +63,24 @@ p {
     top:50px;
     color : lightgrey;
 }
+
+#start:hover{
+    border: 3px solid lightseagreen;
+    color : lightseagreen;
+    background-color: lightblue;
+}
+
+#qImg{
+    width : 200px;
+    height : 200px;
+    position: absolute;
+    left : 0px;
+    top : 0px;
+    padding-left: 25px;
+}
+
+#qImg img{
+    width : 200px;
+    height : 200px;
+    border-top-left-radius: 5px;
+}
