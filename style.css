@@ -97,3 +97,27 @@ p {
     padding : 15px;
     font-size: 1.25em;
 }
+
+#choices{
+    width : 480px;
+    position: absolute;
+    right : 0;
+    top : 125px;
+    padding : 10px
+}
+.choice {
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+    margin-top: 50px;
+}
+
+.choice:hover{
+    border : 2px solid grey;
+    font-weight: bold;
+    color: lightcoral;
+}
