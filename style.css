@@ -84,3 +84,16 @@ p {
     height : 200px;
     border-top-left-radius: 5px;
 }
+
+#question{
+    width:500px;
+    height : 125px;
+    position: absolute;
+    margin-left: 50%;
+}
+
+#question p{
+    margin : 0;
+    padding : 15px;
+    font-size: 1.25em;
+}
