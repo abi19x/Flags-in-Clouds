@@ -356,3 +356,16 @@ function renderQuestion() {
     choiceC.innerHTML = q.choiceC;
 }
 
+//In order to start the quiz
+start.addEventListener("click", startQuiz);
+
+//lets start the quiz
+function startQuiz() {
+start.style.display = "none";
+renderQuestion();
+quiz.style.display = "block"; //we will display our quiz div to the user at this stage
+renderProgress();
+renderCounter(); //we will set the question counter and the time gauge to 0
+TIMER = setInterval(renderCounter, 1000); //we will use the TIMER to call the count render every second
+}
+
