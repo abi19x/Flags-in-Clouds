@@ -237,7 +237,7 @@ function generateFlags() {
  const progress = document.getElementById("progress");
  const scoreContainer = document.getElementById("scoreContainer");
  const playAgain = document.getElementById("playAgain");
- 
+
 //quiz questions which will be presented to users
  let questions = [
     {
@@ -330,3 +330,29 @@ function generateFlags() {
         correct : "B"
     }
 ];
+
+//lets create some variables 
+
+let lastQuestion = questions.length - 1;
+let runningQuestion = 0;
+let count = 10;
+const questionTime = 10; //10 seconds
+const gaugeWidth = 150; //150px
+const gaugeUnit = gaugeWidth / questionTime;
+let TIMER;
+let score = 0;
+
+
+// lets render a question
+
+function renderQuestion() {
+    let q = questions[runningQuestion];
+
+    question.innerHTML = "<h3>" + q.question + "</h3";
+    qImg.innerHTML = "<img src=" + q.imgSrc + ">";
+
+    choiceA.innerHTML = q.choiceA;
+    choiceB.innerHTML = q.choiceB;
+    choiceC.innerHTML = q.choiceC;
+}
+
