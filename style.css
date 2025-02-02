@@ -5,6 +5,9 @@
     min-width: 100%;
     min-height: 80%;
   }
+  h1 {
+    color: whitesmoke;
+  }
 
 #btn {
     height: 60px;
