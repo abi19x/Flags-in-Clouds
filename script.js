@@ -259,7 +259,7 @@ function generateFlags() {
     }, 
 
     {
-        question : "You think you know me?",
+        question : "Remember me?",
         imgSrc : "flags/Flag_of_Japan.png",
         choiceA : "Japan",
         choiceB : "Mexico",
@@ -277,7 +277,7 @@ function generateFlags() {
     },
 
     {
-        question : "You must know who I am!",
+        question : "Have we met before?",
         imgSrc : "flags/Flag_of_Brazil.png",
         choiceA : "Nigeria",
         choiceB : "Cuba",
@@ -286,7 +286,7 @@ function generateFlags() {
     },
 
     {
-        question : "I think you know this one!",
+        question : "Did you forget me?",
         imgSrc : "flags/Flag_of_Canada.png",
         choiceA : "Canada",
         choiceB : "Germany",
@@ -304,7 +304,7 @@ function generateFlags() {
     },
 
     {
-        question : "I know you, do you know me?",
+        question : "Hi, my name is...",
         imgSrc : "flags/Flag_of_Russia.png",
         choiceA : "Peru",
         choiceB : "Belgium",
@@ -322,7 +322,7 @@ function generateFlags() {
     },
 
     {
-        question : "And my country is ...",
+        question : "And my country is...",
         imgSrc : "flags/Flag_of_Portugal.png",
         choiceA : "Ukraine",
         choiceB : "Portugal",
