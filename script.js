@@ -438,10 +438,10 @@ function scoreRender() {
     const scorePercent = Math.round(100 * score / questions.length); //calculates the percentage of score based on user's performance on the quiz  
 
     //we have four available images and based on user's score we will assign each image
-     let img = (scorePercent >= 75) ? "great.png" :
-              (scorePercent >= 50) ? "good.png" :
-              (scorePercent >= 25) ? "notBad.png" :
-              "bad.png";
+     let img = (scorePercent >= 75) ? "emoji/great.png" :
+              (scorePercent >= 50) ? "emoji/good.png" :
+              (scorePercent >= 25) ? "emoji/notBad.png" :
+              "emoji/bad.png";
               scoreContainer.innerHTML = "<img src='" + img + "'><p>" + scorePercent + "%</p>";
               document.getElementById("choices").style.display = "none";
               qImg.style.display = "none";
