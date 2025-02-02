@@ -237,3 +237,96 @@ function generateFlags() {
  const progress = document.getElementById("progress");
  const scoreContainer = document.getElementById("scoreContainer");
  const playAgain = document.getElementById("playAgain");
+ 
+//quiz questions which will be presented to users
+ let questions = [
+    {
+        question : "Who am I?",
+        imgSrc : "flags/Flag_of_Australia.png",
+        choiceA : "United Kingdom",
+        choiceB : "Australia",
+        choiceC : "United States",
+        correct : "B"
+    },
+
+    {
+        question : "Guess who?",
+        imgSrc : "flags/Flag_of_Israel.png",
+        choiceA : "Italy",
+        choiceB : "India",
+        choiceC : "Israel",
+        correct : "C"
+    }, 
+
+    {
+        question : "You think you know me?",
+        imgSrc : "flags/Flag_of_Japan.png",
+        choiceA : "Japan",
+        choiceB : "Mexico",
+        choiceC : "Spain",
+        correct : "A"
+    },
+
+    {
+        question : "What is my name?",
+        imgSrc : "flags/Flag_of_Kenya.png",
+        choiceA : "Netherlands",
+        choiceB : "Kenya",
+        choiceC : "Poland",
+        correct : "B"
+    },
+
+    {
+        question : "You must know who I am!",
+        imgSrc : "flags/Flag_of_Brazil.png",
+        choiceA : "Nigeria",
+        choiceB : "Cuba",
+        choiceC : "Brazil",
+        correct : "C"
+    },
+
+    {
+        question : "I think you know this one!",
+        imgSrc : "flags/Flag_of_Canada.png",
+        choiceA : "Canada",
+        choiceB : "Germany",
+        choiceC : "Norway",
+        correct : "A"
+    },
+
+    {
+        question : "Guess, just guess?",
+        imgSrc : "flags/Flag_of_France.png",
+        choiceA : "Hungary",
+        choiceB : "France",
+        choiceC : "South Africa",
+        correct : "B"
+    },
+
+    {
+        question : "I know you, do you know me?",
+        imgSrc : "flags/Flag_of_Russia.png",
+        choiceA : "Peru",
+        choiceB : "Belgium",
+        choiceC : "Russia",
+        correct : "C"
+    },
+
+    {
+        question : "Pick me!",
+        imgSrc : "flags/Flag_of_Jamaica.png",
+        choiceA : "Jamaica",
+        choiceB : "Egypt",
+        choiceC : "Argentina",
+        correct : "A"
+    },
+
+    {
+        question : "And my country is ...",
+        imgSrc : "flags/Flag_of_Portugal.png",
+        choiceA : "Ukraine",
+        choiceB : "Portugal",
+        choiceC : "Pakistan",
+        correct : "B"
+    }
+];
