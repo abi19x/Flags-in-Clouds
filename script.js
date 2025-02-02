@@ -222,5 +222,18 @@ function generateFlags() {
     //append the image and text to the outcome div
     outcome.appendChild(img);
     outcome.appendChild(text);
+}
 
-    }
+ //create the quiz element
+ const start = document.getElementById("start");
+ const quiz = document.getElementById("quiz");
+ const question = document.getElementById("question");
+ const qImg = document.getElementById("qImage");
+ const choiceA = document.getElementById("A");
+ const choiceB = document.getElementById("B");
+ const choiceC = document.getElementById("C");
+ const counter = document.getElementById("counter");
+ const timeGauge = document.getElementById("timeGauge");
+ const progress = document.getElementById("progress");
+ const scoreContainer = document.getElementById("scoreContainer");
+ const playAgain = document.getElementById("playAgain");
