@@ -399,4 +399,27 @@ function renderCounter() {
     }
 }
 
+//lets check our answer
+function checkAnswer(answer) {
+    if (answer == questions[runningQuestion].correct) {
+        //if our answer is correct
+
+        score++; //incrimenting the score
+        answerIsCorrect(); //updating the score bar by changing the progress color to green
+    } else {
+        //if our answer is wrong
+
+        answerIsWrong(); ////updating the score bar by changing the progress color to red
+    }
+    count = 10; //to start over from 10 for the next question
+
+    if (runningQuestion < lastQuestion) { //in order to handle if there are any questions left
+        runningQuestion++;
+        renderQuestion();
+    } else {
+        clearInterval(TIMER);
+        scoreRender(); //display the score to the user
+    }
+}
+
 
