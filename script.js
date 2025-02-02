@@ -369,3 +369,34 @@ renderCounter(); //we will set the question counter and the time gauge to 0
 TIMER = setInterval(renderCounter, 1000); //we will use the TIMER to call the count render every second
 }
 
+//lets render the progress
+
+function renderProgress() {
+    for (let qIndex = 0; qIndex <= lastQuestion; qIndex++) {
+        progress.innerHTML += "<div class='prog' id=" + qIndex + "></div>";
+    }
+}
+
+//lets render the counter
+
+function renderCounter() {
+    if (count >= 0) {
+        counter.innerHTML = count;
+        timeGauge.style.width = count * gaugeUnit + "px";
+        count--;
+    } else {
+        count = 10; //restart the timer all over again
+        answerIsWrong(); // mark the answer as wrong and update the progress bar
+    
+        if (runningQuestion < lastQuestion) {
+            runningQuestion++;
+            renderQuestion();
+        } else {
+            //if we have no questions left in our basket we need to end the quiz and show the score to the user
+            clearInterval(TIMER);
+            scoreRender(); // Display the score to the user
+        }
+    }
+}
+
+
