@@ -422,4 +422,14 @@ function checkAnswer(answer) {
     }
 }
 
+//when our answer is correct
+function answerIsCorrect() {
+    document.getElementById(runningQuestion).style.backgroundColor = "green";
+}
+
+//when our answer is wrong
+function answerIsWrong() {
+    document.getElementById(runningQuestion).style.backgroundColor = "red";
+}
+
 
