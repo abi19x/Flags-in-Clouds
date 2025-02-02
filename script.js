@@ -204,3 +204,23 @@ function generateFlags() {
         { src: "flags/Flag_of_Zambia.png", alt: "Flag of Zambia", name: "Zambia"},
         { src: "flags/Flag_of_Zimbabwe.png", alt: "Flag of Zimbabwe", name: "Zimbabwe"}
     ]
+    //pick a random flag from the array
+    let randomFlag = flags[Math.floor(Math.random() * flags.length)];
+
+    //clear existing content
+    outcome.innerHTML = "";
+
+    //create the image element for the flag
+    let img = document.createElement("img");
+    img.src = randomFlag.src;
+    img.alt = randomFlag.alt;
+
+    //create the text element for the country name
+    let text = document.createElement("p");
+    text.textContent = randomFlag.name; 
+
+    //append the image and text to the outcome div
+    outcome.appendChild(img);
+    outcome.appendChild(text);
+
+    }
