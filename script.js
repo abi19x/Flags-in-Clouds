@@ -432,4 +432,21 @@ function answerIsWrong() {
     document.getElementById(runningQuestion).style.backgroundColor = "red";
 }
 
+function scoreRender() {
+    scoreContainer.style.display = "block"; //we will display the score to the user at this stage
+
+    const scorePercent = Math.round(100 * score / questions.length); //calculates the percentage of score based on user's performance on the quiz  
+
+    //we have four available images and based on user's score we will assign each image
+     let img = (scorePercent >= 75) ? "great.png" :
+              (scorePercent >= 50) ? "good.png" :
+              (scorePercent >= 25) ? "notBad.png" :
+              "bad.png";
+              scoreContainer.innerHTML = "<img src='" + img + "'><p>" + scorePercent + "%</p>";
+              document.getElementById("choices").style.display = "none";
+              qImg.style.display = "none";
+              playAgain.style.display = "inline-block";
+
+}
+
 
