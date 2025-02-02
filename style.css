@@ -60,7 +60,11 @@ p {
     position: relative;
 }
 
-
+h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
 
 #start{
     font-size: 1.5em;
@@ -80,7 +84,7 @@ p {
 #start:hover{
     border: 3px solid lightseagreen;
     color : lightseagreen;
-    background-color: lightblue;
+    background-color: lightcyan;
 }
 
 h3{
