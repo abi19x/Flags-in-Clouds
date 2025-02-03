@@ -39,3 +39,20 @@ After the fun quiz game comes to an end a score will be revealed to the user. Th
 <li>I have used <a href="https://favicon.io/">favicon</a>, in order to generate the small sized logo icon which is placed on the browser tab.</li>
 <li>Another helpful source to thank in my list is<a href="https://coolors.co/image-picker" target="_blank">Color picker</a>, which supported this project to choose a colour palette that goes hand in hand with colourful theme I have chosen for this project. The source also have a significant feature that allows you to export the group of colours which I picked for my internal files.</li>
 </ul>
+
+##Testing 
+<ul>
+<li>I have made sure there are no broken links.</li>
+<li>The site's layout, colour and interactivity are consistent and rationale.</li>
+<li>The customer is not able to break the site by clicking unvalidated clicks. For instance when generating flags at random, or selecting an answer from the multiple choice questions.</li>
+<li>All page elements function and display well on all media screen sizes. I have double checked the responsiveness of all pages on mobile, tablet and desktop screen sizes.</li>
+<li>All types of multimedia content used in this project function and look well on different popular browsers. I have checked the deployed on "Microsoft Edge" and "Google Chrome".</li>
+<li>I have confirmed multiple times that the main page is linked rightfully to the custom CSS file.</li>
+<li>I have used an "alt" attribute in all image elements throughout the project, which provides a brief description of all non text elements of having a text equivalent for the visually impaired users.</li>
+<li>The HTML page was tested using the official W3C validator and an error was detected as shown in the screenshot image below.</li>
+<img src="testing/html_error.jpg" alt="screenshot displays error in HTML page" width="300">
+<li>I have visited the booking page one more time, located where the error was thanks to the validator tool and fixed it. The error happened because two different elements were given an identical Id. I have managed to change the Id for one of the elements and now the web page is error free. See the screenshot image below.</li>
+<img src="testing/html_validated.jpg" alt="screenshot displayes validated HTML page" width="300">
+<li> I can now confirm that the custom CSS file in this project passes through the official W3 Jigsaw CSS validor with no issues. See the screenshot below.
+<img src="testing/css_validated.jpg" alt="screenshot displays validated CSS page" width="300">
+<li>All webpages are codded in a consistent manner to eaase readability, and there is no unneeded complexity or commented out code within the files.</li>
