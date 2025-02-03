@@ -18,4 +18,13 @@ This is the background video of moving clouds. The video is about 10 seconds lon
 This is the first section of the website with a visible and clear name of the website, as well as a button informing the user to click it.
 <br>
 <img src="screenShot/flags_screenShot.jpg" alt="Flags being generated when button is clicked" width="300">
-This is when the user clicks the button and start interacting with the webpage. The flag generating section changes its color design and content. An image of a nation`s flag is generated on top and the name of the country on the bottom. The *Click Me* text on the button is also changed to **Next** during this stage.
+This is when the user clicks the button and start interacting with the webpage. The flag generating section changes its color design and content. An image of a nation`s flag is generated on top and the name of the country on the bottom. The <em>Click Me</em> text on the button is also changed to <strong>Next</strong> during this stage.
+<br>
+<img src="screenShot/quiz_section.jpg" alt="The quiz section of the website" width="300">
+This is the second section of the website which will generate questions to test the knowledge of users on this topic. 
+<br>
+<img src="screenShot/quiz_inAction.jpg" alt="Screenshot displaying a question" width="300">
+This image displays the quiz section in action and a question rendered to users. A text question /short message/ which is changed for every question is shown on the top that is followed by the image of the flag which needs to be recognised by the user. Three choices are presented to be selected to which only of them can be a possible answer. A countdown timer is placed on the left-bottom section to notify how much time a user has to make a decision and answer the question. There is also a score progress bar positioned on the right-bottom of the section to enhance user experience and inform how well they are doing in the quiz. Green colour is used to mark for when a users answers correctly and a red color when the wrong inswer is clicked or when no answer is received before the time runs out.
+<br>
+<img src="screenShot/score_screenShot.jpg" alt="Screenshot displaying a score" width="300">
+After the fun quiz game comes to an end a score will be revealed to the user. The result will be calculated and given to the user as a form of a percentage with an emoji image that reflects the performance of participants. 
