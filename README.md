@@ -13,3 +13,9 @@ As a user who is interested in a world geography and flags, I want an engaging a
 ### The final project
 <img src="screenShot/background.jpg" alt="The background video screenshot" width="300">
 This is the background video of moving clouds. The video is about 10 seconds long and it is played on auto and loop mode, which means the video plays automatically and continously when a user visits the website.
+<br>
+<img src="screenShot/flagGenerating_section.jpg" alt="Flag generating section of the site" width="300"> 
+This is the first section of the website with a visible and clear name of the website, as well as a button informing the user to click it.
+<br>
+<img src="screenShot/flags_screenShot.jpg" alt="Flags being generated when button is clicked" width="300">
+This is when the user clicks the button and start interacting with the webpage. The flag generating section changes its color design and content. An image of a nation`s flag is generated on top and the name of the country on the bottom. The *Click Me* text on the button is also changed to **Next** during this stage.
