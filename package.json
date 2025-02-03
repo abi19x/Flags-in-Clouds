@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "name": "flags-in-clouds",
+  "version": "1.0.0",
+  "description": "## Purpose of the Website: The **Flags in Clouds** website is designed to provide an entertaining and educational experience focused on learning about world flags. The site serves two main functions: 1. **Flag Generation Feature** – Users can generate random flags of all the nations in our planet, helping them visually familiarize themselves with different country flags. 2. **Interactive Quiz** – A quiz challenges users to identify flags correctly, there will be a limited time to answer each question and reinforce their knowledge through an engaging gameplay format.",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}
