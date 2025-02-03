@@ -9,6 +9,9 @@ Although the website was intentionally designed for children at the age of prima
 
 ## User Story:
 As a user who is interested in a world geography and flags, I want an engaging and interactive website where I can learn about different national flags through a fun quiz and a flag generation feature. This will help me to improve my knowledge of flags while enjoying an interactive experience.
+<br>
+<img src="screenShot/languages_used.jpg" alt="The languages used for the project" width="300">
+This image is obtained from the github page to inform users the languages used in this project and to what levels they were used. It is clearly witnessed with more than 80% of JavaScript language used in this project, how user interactive and highly reciprocal the website is.
 
 ### The final project
 <img src="screenShot/background.jpg" alt="The background video screenshot" width="300">
