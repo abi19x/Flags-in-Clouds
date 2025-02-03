@@ -28,3 +28,11 @@ This image displays the quiz section in action and a question rendered to users.
 <br>
 <img src="screenShot/score_screenShot.jpg" alt="Screenshot displaying a score" width="300">
 After the fun quiz game comes to an end a score will be revealed to the user. The result will be calculated and given to the user as a form of a percentage with an emoji image that reflects the performance of participants. 
+
+## Credits
+<ul>
+<li>A <a href="https://en.wikipedia.org/wiki/List_of_national_flags_of_sovereign_states">Wikipedia</a> page is greatly used for this website as the main source for the flags and names of all sovereign nation states.</li>
+<li>A cartoon and motion graphics of clouds with effects and annimation was used from <a href="https://www.youtube.com/watch?v=cYvTHYMb-Zk" target="_blank">this</a> YouTube video as the background layout of the webpage.</li>
+<li>I have used <a href="https://favicon.io/">favicon</a>, in order to generate the small sized logo icon which is placed on the browser tab.</li>
+<li>Another helpful source to thank in my list is<a href="https://coolors.co/image-picker" target="_blank">Color picker</a>, which supported this project to choose a colour palette that goes hand in hand with colourful theme I have chosen for this project. The source also have a significant feature that allows you to export the group of colours which I picked for my internal files.</li>
+</ul>
