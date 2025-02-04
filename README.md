@@ -41,6 +41,22 @@ After the fun quiz game comes to an end a score will be revealed to the user. Th
 </ul>
 
 <h2>Testing</h2>
+<table style="width:100%">
+  <tr>
+    <th>Testing environment</th>
+    <th>Testing tool</th>
+    <th>Expected outcome</th>
+    <th>Errors reported</th>
+    <th>Further actions</th>
+  </tr>
+
+  <tr>
+  <td>Main Page</td>
+  <td>The official W3C validator website</td>
+  <td>The page to function as intended, to generate flags of all nations and an interactive quiz section to test the knowledge of users on the respected subject</td>
+  <td>Two different elements were named with an identical Ids.</td>
+  <td>The reported bug was fixed by renaming the Id of one of the elements.</td>
+  </table>
 <ul>
 <li>I have made sure there are no broken links.</li>
 <li>The site's layout, colour and interactivity are consistent and rationale.</li>
