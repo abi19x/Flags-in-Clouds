@@ -448,5 +448,3 @@ function scoreRender() {
               playAgain.style.display = "inline-block";
 
 }
-
-
