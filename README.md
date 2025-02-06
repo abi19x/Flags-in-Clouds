@@ -10,26 +10,26 @@ Although the website was intentionally designed for children at the age of prima
 ## User Story:
 As a user who is interested in a world geography and flags, I want an engaging and interactive website where I can learn about different national flags through a fun quiz and a flag generation feature. This will help me to improve my knowledge of flags while enjoying an interactive experience.
 <br>
-<img src="screenShot/languages_used.jpg" alt="The languages used for the project" width="300">
+<img src="screenshot/languages_used.jpg" alt="The languages used for the project" width="300">
 This image is obtained from the github page to inform users the languages used in this project and to what levels they were used. It is clearly witnessed with more than 80% of JavaScript language used in this project, how user interactive and highly reciprocal the website is.
 
 ### The final project
-<img src="screenShot/background.jpg" alt="The background video screenshot" width="300">
+<img src="screenshot/background.jpg" alt="The background video screenshot" width="300">
 This is the background video of moving clouds. The video is about 10 seconds long and it is played on auto and loop mode, which means the video plays automatically and continously when a user visits the website.
 <br>
-<img src="screenShot/flagGenerating_section.jpg" alt="Flag generating section of the site" width="300"> 
+<img src="screenshot/flag_generating_section.jpg" alt="Flag generating section of the site" width="300"> 
 This is the first section of the website with a visible and clear name of the website, as well as a button informing the user to click it.
 <br>
-<img src="screenShot/flags_screenShot.jpg" alt="Flags being generated when button is clicked" width="300">
+<img src="screenshot/flags_screenshot.jpg" alt="Flags being generated when button is clicked" width="300">
 This is when the user clicks the button and start interacting with the webpage. The flag generating section changes its color design and content. An image of a nation`s flag is generated on top and the name of the country on the bottom. The <em>Click Me</em> text on the button is also changed to <strong>Next</strong> during this stage.
 <br>
-<img src="screenShot/quiz_section.jpg" alt="The quiz section of the website" width="300">
+<img src="screenshot/quiz_section.jpg" alt="The quiz section of the website" width="300">
 This is the second section of the website which will generate questions to test the knowledge of users on this topic. 
 <br>
-<img src="screenShot/quiz_inAction.jpg" alt="Screenshot displaying a question" width="300">
+<img src="screenshot/quiz_action.jpg" alt="Screenshot displaying a question" width="300">
 This image displays the quiz section in action and a question rendered to users. A text question /short message/ which is changed for every question is shown on the top that is followed by the image of the flag which needs to be recognised by the user. Three choices are presented to be selected to which only of them can be a possible answer. A countdown timer is placed on the left-bottom section to notify how much time a user has to make a decision and answer the question. There is also a score progress bar positioned on the right-bottom of the section to enhance user experience and inform how well they are doing in the quiz. Green colour is used to mark for when a users answers correctly and a red color when the wrong inswer is clicked or when no answer is received before the time runs out.
 <br>
-<img src="screenShot/score_screenShot.jpg" alt="Screenshot displaying a score" width="300">
+<img src="screenshot/score_element.jpg" alt="Screenshot displaying a score" width="300">
 After the fun quiz game comes to an end a score will be revealed to the user. The result will be calculated and given to the user as a form of a percentage with an emoji image that reflects the performance of participants. 
 
 ## Credits
