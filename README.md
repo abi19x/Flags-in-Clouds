@@ -72,3 +72,15 @@ After the fun quiz game comes to an end a score will be revealed to the user. Th
 <li> I can now confirm that the custom CSS file in this project passes through the official W3 Jigsaw CSS validor with no issues. See the screenshot below.</li>
 <img src="testing/css_validated.jpg" alt="screenshot displays validated CSS page" width="300">
 <li>All webpages are codded in a consistent manner to eaase readability, and there is no unneeded complexity or commented out code within the files.</li>
+
+## Deployment
+The deployment process is going to help you to set up an environment for your live project, and it is pretty much straight forward to comprehend and apply.
+
+1. Go to settings in your github repository
+2. In the *code and automation* section, select **pages**
+3. Set *'Source'* to 'Deploy from **Branch/**
+4. Select **main** from the branch section
+5. Set **Folder** to **/(root)**, then click **Save**
+6. Go to the **Code** tab, wait few minutes and refresh
+7. On the right hand side click **github pages**
+8. Click **View Deployment**
