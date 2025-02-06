@@ -440,7 +440,7 @@ function scoreRender() {
     //we have four available images and based on user's score we will assign each image
      let img = (scorePercent >= 75) ? "emoji/great.png" :
               (scorePercent >= 50) ? "emoji/good.png" :
-              (scorePercent >= 25) ? "emoji/notBad.png" :
+              (scorePercent >= 25) ? "emoji/not_bad.png" :
               "emoji/bad.png";
               scoreContainer.innerHTML = "<img src='" + img + "'><p>" + scorePercent + "%</p>";
               document.getElementById("choices").style.display = "none";
