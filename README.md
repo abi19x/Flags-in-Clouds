@@ -56,6 +56,31 @@ After the fun quiz game comes to an end a score will be revealed to the user. Th
   <td>The page to function as intended, to generate flags of all nations and an interactive quiz section to test the knowledge of users on the respected subject</td>
   <td>Two different elements were named with an identical Ids.</td>
   <td>The reported bug was fixed by renaming the Id of one of the elements.</td>
+  </tr>
+
+   <tr>
+  <td>CSS custom page</td>
+  <td>W3 Jigsaw CSS validor</td>
+  <td>Apply desired styles and layouts to selected elements, as well as enhanced readability and semantics.</td>
+  <td>No defects presented.</td>
+  <td>No further action required.</td>
+  </tr>
+
+  <tr>
+  <td>Internal links</td>
+  <td>All buttons and linked explored and double checked in the main page.</td>
+  <td>Users not to encounter broken links when intending to prompt desired actions in the website.</td>
+  <td>No bugs detected whatsoever.</td>
+  <td>No needed.</td>
+  </tr>
+
+  <tr>
+  <td>Responsiveness</td>
+  <td>Using media queries on the CSS custom page to ensure a consistent user experience whether accessed on a desktop computer, tablet or mobile phones</td>
+  <td>So that users have the ability to adjust and adapt automatically to all media screen sizes.</td>
+  <td>No errors.</td>
+  <td>Not needed.</td>
+  </tr>
   </table>
 <ul>
 <li>I have made sure there are no broken links.</li>
