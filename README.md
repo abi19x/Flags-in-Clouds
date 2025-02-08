@@ -71,7 +71,7 @@ After the fun quiz game comes to an end a score will be revealed to the user. Th
   <td>All buttons and linked explored and double checked in the main page.</td>
   <td>Users not to encounter broken links when intending to prompt desired actions in the website.</td>
   <td>No bugs detected whatsoever.</td>
-  <td>No needed.</td>
+  <td>No action required.</td>
   </tr>
 
   <tr>
@@ -103,9 +103,10 @@ The deployment process is going to help you to set up an environment for your li
 
 1. Go to settings in your github repository
 2. In the *code and automation* section, select **pages**
-3. Set *'Source'* to 'Deploy from **Branch/**
+3. Set *'Source'* to **Deploy from a Branch/**
 4. Select **main** from the branch section
 5. Set **Folder** to **/(root)**, then click **Save**
 6. Go to the **Code** tab, wait few minutes and refresh
 7. On the right hand side click **github pages**
 8. Click **View Deployment**
+My deployed website can be found <a href="https://abi19x.github.io/Flags-in-Clouds/index.html">here.</a>
