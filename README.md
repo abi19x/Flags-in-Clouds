@@ -98,6 +98,66 @@ After the fun quiz game comes to an end a score will be revealed to the user. Th
 <img src="testing/css_validated.jpg" alt="screenshot displays validated CSS page" width="300">
 <li>All webpages are codded in a consistent manner to eaase readability, and there is no unneeded complexity or commented out code within the files.</li>
 
+#### Jest
+Jest is a JavaScript testing framework that is designed to make sure correctness of any JavaScript codebase. This particular framework will allow you to write tests with an approachable, well known and highly interactive API that gives you results quickly.
+Since 80% of the language used in this project was JavaScript, it is only rational to include a JavaScript testing methods to detect if any errors are presents in the functions and semantics of the <strong>script.js</strong> in my project. 
+<p>I will now walk you through the various steps I applied on how to get started with testing using Jest</p>
+<ol>
+<li> The first step I took was to install Jest globally, as this was done in order to gain access to Jest's Command Line Interface (CLI). I must highly emphasise that <em>Node.js</em> must be installed first because Node Package Manager (npm) will be used as a library and registry for JavaScript software packages.<br>
+Therefore, I went to my terminal and run the following command: <strong>npm install -g jest</strong></li>
+<li>The next step was to run<br>
+<strong>npm init -y</strong>
+As a result this created a <em>package.json</em> file inside the folder I was accessing. The new file has the following content:<br>
+{
+  "name": "learning-jest",<br>
+  "version": "1.0.0",<br>
+  "description": "",<br>
+  "main": "index.js",<br>
+  "scripts": {<br>
+    "test": "echo \"Error: no test specified\" && exit 1"<br>
+  },<br>
+  "keywords": [],<br>
+  "author": "",<br>
+  "license": "ISC"<br>
+}</li>
+<li>The next stage of this process was to add Jest as a dev dependency to the project.<br>
+<strong>rpm install --save-dev jest</strong><br>
+Then, I went to my <em>package.json</em> file and changed this part<br>
+"scripts": {<br>
+    "test": "echo \"Error: no test specified\" && exit 1"<br>
+  },<br>
+  <strong>To this:</strong><br>
+  "scripts": {<br>
+    "test": "jest"<br>
+  },</li>
+<li>It was when I successfully reached this phase that I created a new file called <strong>script.test.js</strong> to enable me write my tests and allow me to practice testing individual units of code in isolation. The main purpose I carried out this specific type of testing was to ensure that each unit of code works as intended, and that the codebase was clean and reliable.</li> 
+<li>Finally, I was ready to run and investigate my first test unit. So, I went to my terminal and simly run:<br>
+<strong>npm test</strong></li>
+</ol>
+<img src="testing/typeerror_in_jest.jpg" alt="screenshot displays error in Jest" width="300">
+<ul>
+<li>One of the main reason why I got this error was because <em>"jsdom"</em> is no longer included by default in the json package and needed to be installed separately. Hence, I run the following command in the terminal:<br>
+<strong>npm install --save-dev jest-environment-jsdom</stron><br>
+The second part to fix this particular error was to explictly instruct Jest to use <em>"jsdom"</em> as the test environment. This was needed purposefully to update Jest configuration by adding the following object in my <em>package.json</em>file.<br>
+{<br>
+  "jest": {<br>
+    "testEnvironment": "jsdom"<br>
+  }<br>
+}<br>
+</li>
+<li>Another reason for this error was missing a <em>"DOM mock"</em>, which is a fake representation of a web page's structure to test code that interacts with the Document Object Model(DOM) without needing a real browser window. This simulated version of the DOM used in testing will allow developers for controlled and isolated testing. So I placed the DOM setup inside <strong>beforeeach</strong> to ensure a clean DOM for each test. This is why I imported the functions after setting up the DOM, to prevent any attempt from accessing the document before it was ready. What seemed to be a very complicated issue was resolved by adding the followng block to the testing file:<br>
+ beforeEach(() => {<br>
+    // Set up the DOM before each test<br>
+    document.body.innerHTML = `<br>
+      <button id="start"></button><br>
+      <div id="quiz" style="display:none;"></div><br>
+    `;<br>
+  });
+  </li> 
+</ul>
+<img src="testing/jest_screenshot_1.jpg" alt="screenshot displays validated code in Jest" width="300">
+This picture displays the first test conducted now passes with no erros after the necessary adjustments were carefully implemented. The solution for my first error also helped as a fundamental principle and blueprint to fix identical errors that have encountered in future tests. 
+
 ## Deployment
 The deployment process is going to help you to set up an environment for your live project, and it is pretty much straight forward to comprehend and apply.
 
@@ -108,5 +168,5 @@ The deployment process is going to help you to set up an environment for your li
 5. Set **Folder** to **/(root)**, then click **Save**
 6. Go to the **Code** tab, wait few minutes and refresh
 7. On the right hand side click **github pages**
-8. Click **View Deployment**
+8. Last but not least, click **View Deployment**<br>
 My deployed website can be found <a href="https://abi19x.github.io/Flags-in-Clouds/index.html">here.</a>
