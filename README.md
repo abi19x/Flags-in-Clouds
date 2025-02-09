@@ -104,9 +104,9 @@ Since 80% of the language used in this project was JavaScript, it is only ration
 <p>I will now walk you through the various steps I applied on how to get started with testing using Jest</p>
 <ol>
 <li> The first step I took was to install Jest globally, as this was done in order to gain access to Jest's Command Line Interface (CLI). I must highly emphasise that <em>Node.js</em> must be installed first because Node Package Manager (npm) will be used as a library and registry for JavaScript software packages.<br>
-Therefore, I went to my terminal and run the following command: <strong>npm install -g jest</strong></li>
+Therefore, I went to my terminal and run the following command:<br> <strong>npm install -g jest</strong></li>
 <li>The next step was to run<br>
-<strong>npm init -y</strong>
+<strong>npm init -y</strong><br>
 As a result this created a <em>package.json</em> file inside the folder I was accessing. The new file has the following content:<br>
 {
   "name": "learning-jest",<br>
@@ -122,7 +122,7 @@ As a result this created a <em>package.json</em> file inside the folder I was ac
 }</li>
 <li>The next stage of this process was to add Jest as a dev dependency to the project.<br>
 <strong>rpm install --save-dev jest</strong><br>
-Then, I went to my <em>package.json</em> file and changed this part<br>
+Then, I went to my <em>package.json</em> file and changed this part:<br>
 "scripts": {<br>
     "test": "echo \"Error: no test specified\" && exit 1"<br>
   },<br>
@@ -137,7 +137,7 @@ Then, I went to my <em>package.json</em> file and changed this part<br>
 <img src="testing/typeerror_in_jest.jpg" alt="screenshot displays error in Jest" width="300">
 <ul>
 <li>One of the main reason why I got this error was because <em>"jsdom"</em> is no longer included by default in the json package and needed to be installed separately. Hence, I run the following command in the terminal:<br>
-<strong>npm install --save-dev jest-environment-jsdom</stron><br>
+<strong>npm install --save-dev jest-environment-jsdom</strong><br>
 The second part to fix this particular error was to explictly instruct Jest to use <em>"jsdom"</em> as the test environment. This was needed purposefully to update Jest configuration by adding the following object in my <em>package.json</em>file.<br>
 {<br>
   "jest": {<br>
@@ -149,14 +149,14 @@ The second part to fix this particular error was to explictly instruct Jest to u
  beforeEach(() => {<br>
     // Set up the DOM before each test<br>
     document.body.innerHTML = `<br>
-      <button id="start"></button><br>
-      <div id="quiz" style="display:none;"></div><br>
+      <button-id="start"></button><br>
+      <div-id="quiz"style="display:none;"></div><br>
     `;<br>
   });
   </li> 
 </ul>
 <img src="testing/jest_screenshot_1.jpg" alt="screenshot displays validated code in Jest" width="300">
-This picture displays the first test conducted now passes with no erros after the necessary adjustments were carefully implemented. The solution for my first error also helped as a fundamental principle and blueprint to fix identical errors that have encountered in future tests. 
+<p>This picture displays the first test conducted now passes with no erros after the necessary adjustments were carefully implemented. The solution for my first error also helped as a fundamental principle and blueprint to fix identical errors that have encountered in future tests.</p> 
 
 ## Deployment
 The deployment process is going to help you to set up an environment for your live project, and it is pretty much straight forward to comprehend and apply.
