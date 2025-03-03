@@ -242,7 +242,7 @@ function generateFlags() {
  let questions = [
     {
         question : "Who am I?",
-        imgSrc : "flags/Flag_of_Australia.png",
+        imgSrc : "assets/flags/flag_of_australia.png",
         choiceA : "United Kingdom",
         choiceB : "Australia",
         choiceC : "United States",
@@ -251,7 +251,7 @@ function generateFlags() {
 
     {
         question : "Guess who?",
-        imgSrc : "flags/Flag_of_Israel.png",
+        imgSrc : "assets/flags/flag_of_israel.png",
         choiceA : "Italy",
         choiceB : "India",
         choiceC : "Israel",
@@ -260,7 +260,7 @@ function generateFlags() {
 
     {
         question : "Remember me?",
-        imgSrc : "flags/Flag_of_Japan.png",
+        imgSrc : "assets/flags/flag_of_japan.png",
         choiceA : "Japan",
         choiceB : "Mexico",
         choiceC : "Spain",
@@ -269,7 +269,7 @@ function generateFlags() {
 
     {
         question : "What is my name?",
-        imgSrc : "flags/Flag_of_Kenya.png",
+        imgSrc : "assets/flags/flag_of_kenya.png",
         choiceA : "Netherlands",
         choiceB : "Kenya",
         choiceC : "Poland",
@@ -278,7 +278,7 @@ function generateFlags() {
 
     {
         question : "Have we met before?",
-        imgSrc : "flags/Flag_of_Brazil.png",
+        imgSrc : "assets/flags/flag_of_brazil.png",
         choiceA : "Nigeria",
         choiceB : "Cuba",
         choiceC : "Brazil",
@@ -287,7 +287,7 @@ function generateFlags() {
 
     {
         question : "Did you forget me?",
-        imgSrc : "flags/Flag_of_Canada.png",
+        imgSrc : "assets/flags/flag_of_canada.png",
         choiceA : "Canada",
         choiceB : "Germany",
         choiceC : "Norway",
@@ -296,7 +296,7 @@ function generateFlags() {
 
     {
         question : "Guess, just guess?",
-        imgSrc : "flags/Flag_of_France.png",
+        imgSrc : "assets/flags/flag_of_france.png",
         choiceA : "Hungary",
         choiceB : "France",
         choiceC : "South Africa",
@@ -305,7 +305,7 @@ function generateFlags() {
 
     {
         question : "Hi, my name is...",
-        imgSrc : "flags/Flag_of_Russia.png",
+        imgSrc : "assets/flags/flag_of_russia.png",
         choiceA : "Peru",
         choiceB : "Belgium",
         choiceC : "Russia",
@@ -314,7 +314,7 @@ function generateFlags() {
 
     {
         question : "Pick me!",
-        imgSrc : "flags/Flag_of_Jamaica.png",
+        imgSrc : "assets/flags/flag_of_jamaica.png",
         choiceA : "Jamaica",
         choiceB : "Egypt",
         choiceC : "Argentina",
@@ -323,7 +323,7 @@ function generateFlags() {
 
     {
         question : "And my country is...",
-        imgSrc : "flags/Flag_of_Portugal.png",
+        imgSrc : "assets/flags/flag_of_portugal.png",
         choiceA : "Ukraine",
         choiceB : "Portugal",
         choiceC : "Pakistan",
@@ -438,10 +438,10 @@ function scoreRender() {
     const scorePercent = Math.round(100 * score / questions.length); //calculates the percentage of score based on user's performance on the quiz  
 
     //we have four available images and based on user's score we will assign each image
-     let img = (scorePercent >= 75) ? "emoji/great.png" :
-              (scorePercent >= 50) ? "emoji/good.png" :
-              (scorePercent >= 25) ? "emoji/not_bad.png" :
-              "emoji/bad.png";
+     let img = (scorePercent >= 75) ? "assets/emoji/great.png" :
+              (scorePercent >= 50) ? "assets/emoji/good.png" :
+              (scorePercent >= 25) ? "assets/emoji/not_bad.png" :
+              "assets/emoji/bad.png";
               scoreContainer.innerHTML = "<img src='" + img + "'><p>" + scorePercent + "%</p>";
               document.getElementById("choices").style.display = "none";
               qImg.style.display = "none";
