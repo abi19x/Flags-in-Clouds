@@ -10,26 +10,26 @@ Although the website was intentionally designed for children at the age of prima
 ## User Story:
 As a user who is interested in a world geography and flags, I want an engaging and interactive website where I can learn about different national flags through a fun quiz and a flag generation feature. This will help me to improve my knowledge of flags while enjoying an interactive experience.
 <br>
-<img src="screenshot/languages_used.jpg" alt="The languages used for the project" width="300">
+<img src="assets/screenshot/languages_used.jpg" alt="The languages used for the project" width="300">
 This image is obtained from the github page to inform users the languages used in this project and to what levels they were used. It is clearly witnessed with more than 80% of JavaScript language used in this project, how user interactive and highly reciprocal the website is.
 
 ### The final project
-<img src="screenshot/background.jpg" alt="The background video screenshot" width="300">
+<img src="assets/screenshot/background.jpg" alt="The background video screenshot" width="300">
 This is the background video of moving clouds. The video is about 10 seconds long and it is played on auto and loop mode, which means the video plays automatically and continously when a user visits the website.
 <br>
-<img src="screenshot/flag_generating_section.jpg" alt="Flag generating section of the site" width="300"> 
+<img src="assets/screenshot/flag_generating_section.jpg" alt="Flag generating section of the site" width="300"> 
 This is the first section of the website with a visible and clear name of the website, as well as a button informing the user to click it.
 <br>
-<img src="screenshot/flags_screenshot.jpg" alt="Flags being generated when button is clicked" width="300">
+<img src="assets/screenshot/flags_screenshot.jpg" alt="Flags being generated when button is clicked" width="300">
 This is when the user clicks the button and start interacting with the webpage. The flag generating section changes its color design and content. An image of a nation`s flag is generated on top and the name of the country on the bottom. The <em>Click Me</em> text on the button is also changed to <strong>Next</strong> during this stage.
 <br>
-<img src="screenshot/quiz_section.jpg" alt="The quiz section of the website" width="300">
+<img src="assets/screenshot/quiz_section.jpg" alt="The quiz section of the website" width="300">
 This is the second section of the website which will generate questions to test the knowledge of users on this topic. 
 <br>
-<img src="screenshot/quiz_action.jpg" alt="Screenshot displaying a question" width="300">
+<img src="assets/screenshot/quiz_action.jpg" alt="Screenshot displaying a question" width="300">
 This image displays the quiz section in action and a question rendered to users. A text question /short message/ which is changed for every question is shown on the top that is followed by the image of the flag which needs to be recognised by the user. Three choices are presented to be selected to which only of them can be a possible answer. A countdown timer is placed on the left-bottom section to notify how much time a user has to make a decision and answer the question. There is also a score progress bar positioned on the right-bottom of the section to enhance user experience and inform how well they are doing in the quiz. Green colour is used to mark for when a users answers correctly and a red color when the wrong inswer is clicked or when no answer is received before the time runs out.
 <br>
-<img src="screenshot/score_element.jpg" alt="Screenshot displaying a score" width="300">
+<img src="assets/screenshot/score_element.jpg" alt="Screenshot displaying a score" width="300">
 After the fun quiz game comes to an end a score will be revealed to the user. The result will be calculated and given to the user as a form of a percentage with an emoji image that reflects the performance of participants. 
 
 ## Credits
@@ -91,15 +91,16 @@ After the fun quiz game comes to an end a score will be revealed to the user. Th
 <li>I have confirmed multiple times that the main page is linked rightfully to the custom CSS file.</li>
 <li>I have used an "alt" attribute in all image elements throughout the project, which provides a brief description of all non text elements of having a text equivalent for the visually impaired users.</li>
 <li>The HTML page was tested using the official W3C validator and an error was detected as shown in the screenshot image below.</li>
-<img src="testing/html_error.jpg" alt="screenshot displays error in HTML page" width="300">
-<li>I have visited the booking page one more time, located where the error was thanks to the validator tool and fixed it. The error happened because two different elements were given an identical Id. I have managed to change the Id for one of the elements and now the web page is error free. See the screenshot image below.</li>
-<img src="testing/html_validated.jpg" alt="screenshot displayes validated HTML page" width="300">
+<img src="assets/testing/html_error.jpg" alt="screenshot displays error in HTML page" width="300">
+<li>I have visited the main page one more time, located where the error was thanks to the validator tool and fixed it. The error happened because two different elements were given an identical Id. I have managed to change the Id for one of the elements and now the web page is error free. See the screenshot image below.</li>
+<img src="assets/testing/html_validated.jpg" alt="screenshot displayes validated HTML page" width="300">
 <li> I can now confirm that the custom CSS file in this project passes through the official W3 Jigsaw CSS validor with no issues. See the screenshot below.</li>
-<img src="testing/css_validated.jpg" alt="screenshot displays validated CSS page" width="300">
+<img src="assets/testing/css_validated.jpg" alt="screenshot displays validated CSS page" width="300">
 <li>All webpages are codded in a consistent manner to eaase readability, and there is no unneeded complexity or commented out code within the files.</li>
 
 #### Jest
 Jest is a JavaScript testing framework that is designed to make sure correctness of any JavaScript codebase. This particular framework will allow you to write tests with an approachable, well known and highly interactive API that gives you results quickly.
+<p>Manual website testing is conducted by human testers manually checking the website through interaction with the site developed. Testers usually follow test cases but they can also explore freely. Manual testing is best for usability testing, exploratory testing and UI validation. On the other hand automative website testing uses scripts and software tools like Selenium or Cypress. This type of testing can run tests on multiple browsers and devices automatically. Automative website testing is best for regression testing, load testing and repetitive tasks.</p>
 Since 80% of the language used in this project was JavaScript, it is only rational to include a JavaScript testing methods to detect if any errors are presents in the functions and semantics of the <strong>script.js</strong> in my project. 
 <p>I will now walk you through the various steps I applied on how to get started with testing using Jest</p>
 <ol>
@@ -134,7 +135,7 @@ Then, I went to my <em>package.json</em> file and changed this part:<br>
 <li>Finally, I was ready to run and investigate my first test unit. So, I went to my terminal and simly run:<br>
 <strong>npm test</strong></li>
 </ol>
-<img src="testing/typeerror_in_jest.jpg" alt="screenshot displays error in Jest" width="300">
+<img src="assets/testing/typeerror_in_jest.jpg" alt="screenshot displays error in Jest" width="300">
 <ul>
 <li>One of the main reason why I got this error was because <em>"jsdom"</em> is no longer included by default in the json package and needed to be installed separately. Hence, I run the following command in the terminal:<br>
 <strong>npm install --save-dev jest-environment-jsdom</strong><br>
@@ -155,7 +156,7 @@ The second part to fix this particular error was to explictly instruct Jest to u
   });
   </li> 
 </ul>
-<img src="testing/jest_screenshot_1.jpg" alt="screenshot displays validated code in Jest" width="300">
+<img src="assets/testing/jest_screenshot_1.jpg" alt="screenshot displays validated code in Jest" width="300">
 <p>This picture displays the first test conducted now passes with no erros after the necessary adjustments were carefully implemented. The solution for my first error also helped as a fundamental principle and blueprint to fix identical errors that have encountered in future tests.</p> 
 
 ## Deployment
