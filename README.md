@@ -7,13 +7,26 @@ The **Flags in Clouds** website is designed to provide an entertaining and educa
 
 Although the website was intentionally designed for children at the age of primary school by combining an appealing bright colors and interactive learning approach, this website will make sure to make flag recognition enjoyable for users of all ages.
 
-## User Story:
+<ul>
+<li><a href="#user_story">User Story</a></li>
+<li><a href="#final_project">The final project</a></li>
+<li><a href="#credits">Credits</a></li>
+<li><a href="#testing">Testing</a>
+<ul>
+<li><a href="#jest">Jest</a></li>
+</ul>
+</li>
+<li><a href="#deployment">Deployment</a></li>
+</ul>
+
+<h2 id="user_story">User Story</h2>:
 As a user who is interested in a world geography and flags, I want an engaging and interactive website where I can learn about different national flags through a fun quiz and a flag generation feature. This will help me to improve my knowledge of flags while enjoying an interactive experience.
 <br>
 <img src="assets/screenshot/languages_used.jpg" alt="The languages used for the project" width="300">
+
 This image is obtained from the github page to inform users the languages used in this project and to what levels they were used. It is clearly witnessed with more than 80% of JavaScript language used in this project, how user interactive and highly reciprocal the website is.
 
-### The final project
+<h3 id="final_project">Final project</h3>
 <img src="assets/screenshot/background.jpg" alt="The background video screenshot" width="300">
 This is the background video of moving clouds. The video is about 10 seconds long and it is played on auto and loop mode, which means the video plays automatically and continously when a user visits the website.
 <br>
@@ -32,7 +45,7 @@ This image displays the quiz section in action and a question rendered to users.
 <img src="assets/screenshot/score_element.jpg" alt="Screenshot displaying a score" width="300">
 After the fun quiz game comes to an end a score will be revealed to the user. The result will be calculated and given to the user as a form of a percentage with an emoji image that reflects the performance of participants. 
 
-## Credits
+<h2 id="credits">Credits</h2>
 <ul>
 <li>A <a href="https://en.wikipedia.org/wiki/List_of_national_flags_of_sovereign_states">Wikipedia</a> page is greatly used for this website as the main source for the flags and names of all sovereign nation states.</li>
 <li>A cartoon and motion graphics of clouds with effects and annimation was used from <a href="https://www.youtube.com/watch?v=cYvTHYMb-Zk" target="_blank">this</a> YouTube video as the background layout of the webpage.</li>
@@ -40,7 +53,7 @@ After the fun quiz game comes to an end a score will be revealed to the user. Th
 <li>Another helpful source to thank in my list is<a href="https://coolors.co/image-picker" target="_blank">Color picker</a>, which supported this project to choose a colour palette that goes hand in hand with colourful theme I have chosen for this project. The source also have a significant feature that allows you to export the group of colours which I picked for my internal files.</li>
 </ul>
 
-<h2>Testing</h2>
+<h2 id="testing">Testing</h2>
 <table style="width:100%">
   <tr>
     <th>Testing environment</th>
@@ -81,6 +94,14 @@ After the fun quiz game comes to an end a score will be revealed to the user. Th
   <td>No errors.</td>
   <td>Not needed.</td>
   </tr>
+
+  <tr>
+  <td>JavaScript file</td>
+  <td>The offical JSLint code analysis tool</td>
+  <td>To statically and automatically analyse if the JavaScript source code we provided for our project complies with coding rules.</td>
+  <td>No defects presented.</td>
+  <td>No further action required.</td>
+  </tr>
   </table>
 <ul>
 <li>I have made sure there are no broken links.</li>
@@ -96,9 +117,11 @@ After the fun quiz game comes to an end a score will be revealed to the user. Th
 <img src="assets/testing/html_validated.jpg" alt="screenshot displayes validated HTML page" width="300">
 <li> I can now confirm that the custom CSS file in this project passes through the official W3 Jigsaw CSS validor with no issues. See the screenshot below.</li>
 <img src="assets/testing/css_validated.jpg" alt="screenshot displays validated CSS page" width="300">
+<li>I have tested the JavaScript source code of this project in the offical JSLint automative testing tool. This incredibly helpful website enabled me to double check and evaluate if all variables, values, semantics and functions in the JavaScript file complies with the rules and standards of coding. See the image below.</li>
+<img src="assets/testing/js_lint.jpg" alt="screenshot displays the JavaScript source code tested in JSLint" width="300">
 <li>All webpages are codded in a consistent manner to eaase readability, and there is no unneeded complexity or commented out code within the files.</li>
 
-#### Jest
+<h4 id="jest">Jest</h4>
 Jest is a JavaScript testing framework that is designed to make sure correctness of any JavaScript codebase. This particular framework will allow you to write tests with an approachable, well known and highly interactive API that gives you results quickly.
 <p>Manual website testing is conducted by human testers manually checking the website through interaction with the site developed. Testers usually follow test cases but they can also explore freely. Manual testing is best for usability testing, exploratory testing and UI validation. On the other hand automative website testing uses scripts and software tools like Selenium or Cypress. This type of testing can run tests on multiple browsers and devices automatically. Automative website testing is best for regression testing, load testing and repetitive tasks.</p>
 Since 80% of the language used in this project was JavaScript, it is only rational to include a JavaScript testing methods to detect if any errors are presents in the functions and semantics of the <strong>script.js</strong> in my project. 
@@ -159,7 +182,7 @@ The second part to fix this particular error was to explictly instruct Jest to u
 <img src="assets/testing/jest_screenshot_1.jpg" alt="screenshot displays validated code in Jest" width="300">
 <p>This picture displays the first test conducted now passes with no erros after the necessary adjustments were carefully implemented. The solution for my first error also helped as a fundamental principle and blueprint to fix identical errors that have encountered in future tests.</p> 
 
-## Deployment
+<h2 id="deployment">Deployment</h2>
 The deployment process is going to help you to set up an environment for your live project, and it is pretty much straight forward to comprehend and apply.
 
 1. Go to settings in your github repository
